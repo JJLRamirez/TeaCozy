@@ -1,4 +1,4 @@
-.header {
+header {
   height: 69px;
   width: 100%;
   position: fixed;
@@ -6,13 +6,13 @@
   align-items: center;
   display: flex;
   padding-left: 10px;
+  background-color: black;
   z-index: 5;
 }
 
-.header nav {
+header nav {
   display: inline-block;
   text-decoration: underline;
-  /*font-weight: bold;*/
   position: absolute;
   right: 10px;
 }
@@ -32,22 +32,32 @@ body {
   text-align: center;
 }
 
-.container #mission {
-  align-items: center;
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   height: 700px;
   width: 1200px;
-  display: flex;
+  margin: auto;
+  padding-top: 80px;
 }
 
 #mission {
   background-image: url("../images/img-mission-background.jpg");
-  padding-top: 710px;
 }
 
 h2,
 h4 {
   background-color: black;
-  vertical-align: middle;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+.container {
+  width: 100%;
+  background-color: black;
+  margin: auto;
 }
 
 a:link, a:visited {
