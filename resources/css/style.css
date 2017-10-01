@@ -35,15 +35,23 @@ body {
 .main-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  height: 700px;
-  width: 1200px;
-  margin: auto;
-  padding-top: 80px;
+  /*flex-wrap: wrap;*/
 }
 
 #mission {
   background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  padding-top: 80px;
+  margin: auto;
+}
+
+#featured {
+
+}
+
+.picture-container{
+
 }
 
 h2,
