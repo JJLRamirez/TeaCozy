@@ -47,11 +47,26 @@ body {
 }
 
 #featured {
+  flex-wrap: wrap;
+}
 
+.caption {
+  margin: 10px 0;
+}
+
+#tea-image {
+  padding: 10px;
+}
+
+#featured .main-container {
+  width: 1000px;
+  margin: auto;
+  display: block;
 }
 
 .picture-container{
-
+  display: flex;
+  justify-content: space-between;
 }
 
 h2,
@@ -101,6 +116,20 @@ h4 {
   display: inline-block;
   vertical-align: middle;
   margin: 15px 20px;
+}
+
+.contact {
+  height: 200px;
+  justify-content: center;
+}
+
+.contact h2 {
+  width: auto;
+}
+
+.copy {
+  position: absolute;
+  left: 20px;
 }
 
 a:link, a:visited {
