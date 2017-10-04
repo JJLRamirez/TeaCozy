@@ -68,6 +68,41 @@ h4 {
   margin: auto;
 }
 
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#locations .main-container {
+  position: relative;
+}
+
+.filler {
+  align-content: center;
+  position: relative;
+  bottom: 167px;
+  left: 425px;
+}
+
+#locations h2 {
+  background-color: inherit;
+  position: absolute;
+
+}
+
+#locations .loc-text {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 15px 20px;
+}
+
 a:link, a:visited {
     color: seashell;
     text-decoration: underline;
